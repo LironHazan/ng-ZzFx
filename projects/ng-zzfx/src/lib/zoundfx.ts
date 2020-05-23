@@ -1,10 +1,9 @@
 import * as zzfx from './source/zzfx';
 
-export type ZzFxFn = (sound: number[]) => void;
-
 export class Zoundfx {
-
- static async start(vol: number): Promise<ZzFxFn> {
+  // todo resolve it
+  // tslint:disable-next-line:ban-types
+ static async start(vol: number): Promise<Function> {
     const zzfxFn = await zzfx.ZZFX(vol);
     return (sound: number[]) => {
      zzfxFn(...sound);

@@ -1,15 +1,14 @@
 import {AfterViewInit, Directive, ElementRef, Input, Renderer2} from '@angular/core';
 import * as zzfx from './source/zzfx';
-import {ZzFxFn} from './zoundfx';
 
 @Directive({
   selector: '[zoundfx]'
 })
 export class ZoundfxDirective implements AfterViewInit {
-  private zzfxFn: ZzFxFn; // A blackbox with too may params to type..
+  private zzfxFn; // A blackbox with too may params to type..
   @Input() vol = 0.1; // Number from 0 to 1;
   @Input() trigger = 'onclick';
-  @Input() custom: number[];
+  @Input() zound: number[];
 
   constructor(private el: ElementRef, private renderer: Renderer2) { }
 
@@ -20,7 +19,7 @@ export class ZoundfxDirective implements AfterViewInit {
 
   registerEventListeners() {
     this.renderer.listen(this.el.nativeElement, this.trigger, () => {
-      this.zzfxFn(this.custom);
+      this.zzfxFn(...this.zound);
     });
   }
 
