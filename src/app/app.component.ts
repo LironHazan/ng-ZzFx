@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import { Zoundfx } from '../../projects/ng-zz-fx/src/lib/zoundfx';
+import { Zoundfx } from '../../projects/ng-zzfx/src/lib/zoundfx';
 
 @Component({
   selector: 'app-root',

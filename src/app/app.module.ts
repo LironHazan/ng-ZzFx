@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import {NgZzFxModule} from '../../projects/ng-zz-fx/src/lib/ng-zz-fx.module';
+import {NgZzfxModule} from '../../projects/ng-zzfx/src/lib/ng-zzfx.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import {NgZzFxModule} from '../../projects/ng-zz-fx/src/lib/ng-zz-fx.module';
   ],
     imports: [
         BrowserModule,
-        NgZzFxModule
+        NgZzfxModule
     ],
   providers: [],
   bootstrap: [AppComponent]

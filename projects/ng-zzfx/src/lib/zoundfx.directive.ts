@@ -5,7 +5,7 @@ import * as zzfx from './source/zzfx';
   selector: '[zoundfx]'
 })
 export class ZoundfxDirective implements AfterViewInit {
-  private zzfxFn; // A blackbox with too may params to type..
+  private zzfxFn: (sound: number[]) => void; // A blackbox with too may params to type..
   @Input() vol = 0.1; // Number from 0 to 1;
   @Input() trigger = 'onclick';
   @Input() custom: number[];
@@ -19,7 +19,7 @@ export class ZoundfxDirective implements AfterViewInit {
 
   registerEventListeners() {
     this.renderer.listen(this.el.nativeElement, this.trigger, () => {
-      this.zzfxFn(...this.custom);
+      this.zzfxFn(this.custom);
     });
   }
 

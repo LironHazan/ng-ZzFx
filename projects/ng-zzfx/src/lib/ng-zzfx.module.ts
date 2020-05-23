@@ -4,4 +4,4 @@ import { ZoundfxDirective } from './zoundfx.directive';
   declarations: [ZoundfxDirective],
   exports: [ZoundfxDirective]
 })
-export class NgZzFxModule { }
+export class NgZzfxModule { }

@@ -122,36 +122,36 @@
     },
     "ng-zzFx": {
       "projectType": "library",
-      "root": "projects/ng-zz-fx",
-      "sourceRoot": "projects/ng-zz-fx/src",
+      "root": "projects/ng-zzfx",
+      "sourceRoot": "projects/ng-zzfx/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ng-zz-fx/tsconfig.lib.json",
-            "project": "projects/ng-zz-fx/ng-package.json"
+            "tsConfig": "projects//ng-zzfx/tsconfig.lib.json",
+            "project": "projects//ng-zzfx/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ng-zz-fx/tsconfig.lib.prod.json"
+              "tsConfig": "projects//ng-zzfx/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng-zz-fx/src/test.ts",
-            "tsConfig": "projects/ng-zz-fx/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-zz-fx/karma.conf.js"
+            "main": "projects//ng-zzfx/src/test.ts",
+            "tsConfig": "projects//ng-zzfx/tsconfig.spec.json",
+            "karmaConfig": "projects//ng-zzfx/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng-zz-fx/tsconfig.lib.json",
-              "projects/ng-zz-fx/tsconfig.spec.json"
+              "projects//ng-zzfx/tsconfig.lib.json",
+              "projects//ng-zzfx/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

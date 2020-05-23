@@ -37,7 +37,7 @@ Run `ng build ng-zzFx` to build the project. The build artifacts will be stored 
 
 ## Publishing
 
-After building your library with `ng build ng-zzFx`, go to the dist folder `cd dist/ng-zz-fx` and run `npm publish`.
+After building your library with `ng build ng-zzFx`, go to the dist folder `cd dist/ng-zzfx` and run `npm publish`.
 
 ## Running unit tests
 
