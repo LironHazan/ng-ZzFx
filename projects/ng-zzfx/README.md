@@ -12,6 +12,8 @@ Angular API for: ZzFX - Zuper Zmall Zound Zynth - Micro Edition
 
 MIT License - Copyright 2019 Frank Force
 
+[Angularish demo](https://ecstatic-carson-a46449.netlify.app/)
+
 In your component:
 
 ```typescript
