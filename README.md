@@ -1,5 +1,30 @@
 # NgZzFX
 
+
+Angular API for: ZzFX - Zuper Zmall Zound Zynth - Micro Edition
+
+[ZzFx.js](https://github.com/KilledByAPixel/ZzFX)
+
+[ZzFX Demo](https://codepen.io/KilledByAPixel/pen/BaowKzv)
+
+MIT License - Copyright 2019 Frank Force
+
+
+Give your element a sound by adding the directive as follows:
+
+Component:
+
+```typescript
+  case1 = [ , , 1675, , .06, .24, 1, 1.82, , , 837, .06];
+```
+
+Template:
+
+``` 
+  <div zoundfx trigger="click" [custom]="case1">💰</div>
+
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Development server

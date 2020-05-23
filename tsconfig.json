@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-zz-fx": [
+        "dist/ng-zz-fx/ng-zz-fx",
+        "dist/ng-zz-fx"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
