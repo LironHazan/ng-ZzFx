@@ -22,7 +22,7 @@ Give your element a sound by adding the directive as follows:
 In your template:
 
 ``` 
-  <div zoundfx trigger="click" [custom]="case1">💰</div>
+  <div zoundfx trigger="click" [zound]="case1">💰</div>
 
 ```
 
