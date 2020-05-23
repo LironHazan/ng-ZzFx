@@ -1,3 +1,7 @@
 .bits {
   display: flex;
 }
+.bit {
+  font-size: 30px;
+  padding: 5px;
+}

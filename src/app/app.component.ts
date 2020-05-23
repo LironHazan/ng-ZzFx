@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import { Zoundfx } from '../../projects/ng-zzfx/src/lib/zoundfx';
+import {Zoundfx, ZzFxFn} from '../../projects/ng-zzfx/src/lib/zoundfx';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,7 @@ import { Zoundfx } from '../../projects/ng-zzfx/src/lib/zoundfx';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  playSound;
+  playSound: ZzFxFn;
 
   case1 = [ , , 1675, , .06, .24, 1, 1.82, , , 837, .06];
   case2 = [,,925,.04,.3,.6,1,.3,,6.27,-184,.09,.17];
@@ -18,7 +18,6 @@ export class AppComponent implements OnInit{
     this.playSound = await Zoundfx.start(0.2);
   }
 
-  // proggrematic
   onClick() {
     this.playSound(this.case4);
   }
