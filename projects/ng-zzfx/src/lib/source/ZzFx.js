@@ -16,7 +16,7 @@ let zzfxV;
 let zzfxX;
 
 // Liron's wrapping in order to expose API:
-export async function ZZFX (vol) {
+export function ZZFX (vol) {
   // ZzFXMicro - Zuper Zmall Zound Zynth
   zzfxV= vol // volume
   zzfx=    // play sound

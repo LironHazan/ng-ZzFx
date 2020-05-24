@@ -12,7 +12,7 @@ export class ZoundfxDirective implements AfterViewInit {
 
   constructor(private el: ElementRef, private renderer: Renderer2) { }
 
-  async ngAfterViewInit() {
+  ngAfterViewInit() {
     this.zzfxFn = zzfx.ZZFX(this.vol);
     this.registerEventListeners();
   }
