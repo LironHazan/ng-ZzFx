@@ -1,6 +1,6 @@
 {
   "name": "ng-zzfx",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Angular API for: ZzFX - Zuper Zmall Zound Zynth - Micro Edition by Frank Force",
   "keywords": [
     "web-audio",
@@ -17,12 +17,5 @@
   "homepage": "https://github.com/LironHazan/ng-ZzFx.git#readme",
   "bugs": {
     "url": "https://github.com/LironHazan/ng-ZzFx/issues"
-  },
-  "peerDependencies": {
-    "@angular/common": "^9.1.9",
-    "@angular/core": "^9.1.9"
-  },
-  "dependencies": {
-    "tslib": "^1.10.0"
   }
 }
