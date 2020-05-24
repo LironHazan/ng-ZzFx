@@ -35,8 +35,8 @@ Or by using the zzfs function wrapper:
   playSound: ZzFxFn;
   case4 = [1.5,.5,270,,.1,,1,1.5,,,,,,,,.1,.01];
 
-  async ngOnInit() {
-    this.playSound = await Zoundfx.start(0.2);
+  ngOnInit() {
+    this.playSound = Zoundfx.start(0.2);
   }
 
   onClick() {

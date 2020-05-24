@@ -12,8 +12,8 @@ export class ZoundfxDirective implements AfterViewInit {
 
   constructor(private el: ElementRef, private renderer: Renderer2) { }
 
-  async ngAfterViewInit(): Promise<void> {
-    this.zzfxFn = await zzfx.ZZFX(this.vol);
+  async ngAfterViewInit() {
+    this.zzfxFn = zzfx.ZZFX(this.vol);
     this.registerEventListeners();
   }
 
