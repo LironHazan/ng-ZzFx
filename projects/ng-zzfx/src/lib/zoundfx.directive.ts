@@ -5,9 +5,9 @@ import * as zzfx from './source/zzfx';
   selector: '[zoundfx]'
 })
 export class ZoundfxDirective implements AfterViewInit {
-  private zzfxFn; // A blackbox with too may params to type..
+  private zzfxFn; // A blackbox with too many params to type..
   @Input() vol = 0.1; // Number from 0 to 1;
-  @Input() trigger = 'onclick';
+  @Input() trigger = 'click';
   @Input() zound: number[];
 
   constructor(private el: ElementRef, private renderer: Renderer2) { }
