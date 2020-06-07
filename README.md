@@ -14,6 +14,11 @@ MIT License - Copyright 2019 Frank Force
 
 [Angularish demo](https://ecstatic-carson-a46449.netlify.app/)
 
+ng-zzfx is also used in [ng-tetris](https://github.com/melcor76/ng-tetris)
+--> [Hit to play!](https://focused-mestorf-930f82.netlify.app/)
+
+How to use?
+
 In your component:
 
 ```typescript

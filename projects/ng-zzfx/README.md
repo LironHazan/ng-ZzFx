@@ -1,6 +1,6 @@
 # NgZzFx 8bit zounds for Angular ;)
 
-[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.1.3&x2=0)](https://www.npmjs.com/package/ng-zzfx)
+[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.0.6&x2=0)](https://www.npmjs.com/package/ng-zzfx)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/LironHazan/ng-ZzFx/blob/master/LICENSE)
 
 
@@ -13,6 +13,11 @@ Angular API for: ZzFX - Zuper Zmall Zound Zynth - Micro Edition
 MIT License - Copyright 2019 Frank Force
 
 [Angularish demo](https://ecstatic-carson-a46449.netlify.app/)
+
+ng-zzfx is also used in [ng-tetris](https://github.com/melcor76/ng-tetris)
+--> [Hit to play!](https://focused-mestorf-930f82.netlify.app/)
+
+How to use?
 
 In your component:
 
